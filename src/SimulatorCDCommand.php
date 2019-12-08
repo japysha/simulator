@@ -27,7 +27,7 @@ class SimulatorCDCommand extends Command
         $question->setValidator(function ($answer) {
             if (!preg_match('#^((\.\.?/|[a-zA-Z_/])*)|[\.\.]$#', $answer)) {
                 throw new \RuntimeException(
-                    'Please insert the right format or use default'
+                    'Please insert the right format'
                 );
             }
             return $answer;
