@@ -1,4 +1,4 @@
-# Reporter
+# Simulator
 
 This project simulate change directory (cd) function for an abstract file system..
 
