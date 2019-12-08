@@ -39,7 +39,7 @@ Open terminal, go to root project folder and run command (symfony console comman
 $ ./simulator simulator:cd
 ```
 
-in case you get error: <br>zsh:permission denied <br>give permission to reporter with command:
+in case you get error: <br>zsh:permission denied <br>give permission to simulator with command:
 
 ```
 $ chmod +x ./simulator
